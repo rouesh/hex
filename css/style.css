@@ -12,6 +12,11 @@ body {
     line-height: 25px;
     font-weight: 400;
     color: #000000;
+    max-width: 400px;
+    max-height: 650px;
+    overflow: hidden;
+    border: 3px solid #000000;
+    margin: 0 auto;
 }
 
 input, textarea, select, button {
@@ -23,7 +28,7 @@ a {
 }
 
 .container {
-    max-width: 888px;
+    max-width: 380px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -39,9 +44,108 @@ a {
      display: none;
         }
     
+/*--  -------------------index start----------------------------------------- --*/
+.hex {
+    margin: 100px auto;
+    position: relative;
+}
+.hex__block {
+    width: 35px;
+    height: 20px;
+    border-top: transparent;
+    border-left: 3px solid rgb(194, 194, 194);
+    border-bottom: transparent;
+    border-right: 3px solid rgb(194, 194, 194);
+}
+.hex__block_first {
+    width: 35.5px;
+    position: absolute;
+    top: 0;
+    left: 50%;    
+}
 
-/*--  -------------------header start--------------------- --*/
+.hex__block_second {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: rotate(60deg);
+}
 
+.hex__block_third {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: rotate(-60deg);
+}
+
+/*--  -------------------index end------------------------------------------- --*/
+/*--  -------------------header start---------------------------------------- --*/
+.header__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__bracket {
+
+}
+
+.bracket {
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+}
+
+.bracket_left {
+    position: relative;
+}
+
+.bracket__line {
+    width: 4px;
+    height: 10px;
+    border: 1px solid green;
+
+}
+
+.bracket__line_first {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    transform: rotate(45deg);
+}
+
+.bracket__line_second {  
+    position: absolute; 
+    top: 10px;
+    right: 14.5px;
+}
+
+.bracket__line_third {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    transform: rotate(-45deg);
+}
+
+.header__title {
+
+}
+
+
+
+
+/* .bracket::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #green;
+    margin: 0 0 0 -10px;
+} */
 /*--  -------------------burger start--------------------- --*/
 /*--  -------------------burger end--------------------- --*/
 
