@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'PT Sans';
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000000;
+}
+
+input, textarea, select, button {
+    font-family: inherit;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 888px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.ibg {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    }
+    
+    .ibg img{
+     display: none;
+        }
+    
+
+/*--  -------------------header start--------------------- --*/
+
+/*--  -------------------burger start--------------------- --*/
+/*--  -------------------burger end--------------------- --*/
+
+/*--  -------------------header end--------------------- --*/
+/*--  -------------------main start--------------------- --*/
+
+/*--  -------------------main end--------------------- --*/
+/*--  -------------------footer start--------------------- --*/
+/*--  -------------------footer end--------------------- --*/
