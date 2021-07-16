@@ -149,9 +149,9 @@ a {
     }
     50% {
         border-top: transparent;
-        border-left: 3px solid #316fff;
+        border-left: 3px solid #0bbece;
         border-bottom: transparent;
-        border-right: 3px solid #316fff;
+        border-right: 3px solid #0bbece;
     }
 }
 
@@ -164,9 +164,9 @@ a {
     }
     50% {
         border-top: transparent;
-        border-left: 3px solid #00c711;
+        border-left: 3px solid #47c835;
         border-bottom: transparent;
-        border-right: 3px solid #00c711;
+        border-right: 3px solid #47c835;
     }
 }
 
@@ -179,9 +179,9 @@ a {
     }
     50% {
         border-top: transparent;
-        border-left: 3px solid #ffff00;
+        border-left: 3px solid #cc8921;
         border-bottom: transparent;
-        border-right: 3px solid #ffff00;
+        border-right: 3px solid #cc8921;
     }
 }
 
