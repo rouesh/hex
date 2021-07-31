@@ -255,15 +255,7 @@ a {
 
 
 /*--  -------------------index end------------------------------------------- --*/
-/*--  -------------------header start---------------------------------------- --*/
-.header__title {
-    max-width: 144px;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 600;
-    color: #000000;
-    margin: 20px auto;
-}
+/*--  -------------------slider start---------------------------------------- --*/
 
 .slider {
     overflow: hidden;
@@ -293,6 +285,7 @@ a {
     margin-top: 15px;
 }
 .s1__title {
+    max-width: 144px;
     font-size: 18px;
     line-height: 20px;
     font-weight: 600;
@@ -423,10 +416,113 @@ a {
 
 }
 /*--  -------------------s1 end--------------------- --*/
+/*--  -------------------slider end--------------------- --*/
 
-/*--  -------------------header end--------------------- --*/
-/*--  -------------------main start--------------------- --*/
+/*--  -------------------level start--------------------- --*/
 
-/*--  -------------------main end--------------------- --*/
+.level__header {
+    margin-top: 15px;
+}
+
+.lheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.score {
+    
+}
+
+.score__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.score__img {
+    width: 20px;
+    height: auto;
+}
+
+.score__num {
+    padding: 0px 0px 0px 5px;
+    color: #515151;
+    font-weight: 900;
+}
+
+.burger {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.burger__line {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    transform: translateY(-50%);
+    width: 80%;
+    height: 3px;
+    background-color: #515151;
+}
+
+.burger__line_second {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.burger__line_third {
+    top: 70%;
+}
+
+
+.level__building {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.level__building-icon {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #c2c2c2;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.level__building-icon:last-child {
+    margin-right: 0px;
+}
+
+.level__prompt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.level__prompt-item {
+    width: 30px;
+    height: 30px;
+    border: 4px solid #c2c2c2;
+    border-radius: 10%;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.level__prompt-item:last-child {
+    margin-right: 0px;
+}
+
+
+/*--  -------------------level end--------------------- --*/
+
 /*--  -------------------footer start--------------------- --*/
 /*--  -------------------footer end--------------------- --*/
