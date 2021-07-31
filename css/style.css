@@ -34,7 +34,7 @@ a {
 
 /*--  -------------------index start----------------------------------------- --*/
 .main-index {
-    background-color: #fffdce;
+    background-color: #fff7e4;
 }
 
 .index {
@@ -116,9 +116,9 @@ a {
     width: 35px;
     height: 20px;
     border-top: transparent;
-    border-left: 3px solid #c18f4b;
+    border-left: 3px solid #bfbd8e;
     border-bottom: transparent;
-    border-right: 3px solid #c18f4b;
+    border-right: 3px solid #bfbd8e;
 }
 
 .hex__block_blue {
@@ -283,7 +283,17 @@ a {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    position: relative;
 }
+
+.prompt-img {
+    position: absolute;
+    left: 10px;
+    top: 288px;
+    width: 70px;
+    height: auto;
+}
+
 .s1__row {
     flex: 0 1 100%;
     margin-top: 15px;
