@@ -11,10 +11,10 @@ body {
     font-size: 12px;
     line-height: 20px;
     font-weight: 400;
-    color: #000000;
+    color: #784e14;
     max-width: 400px;
     max-height: 650px;
-    border: 3px solid #3b3b3b;
+    border: 3px solid #784e14;
     margin: 0 auto;
 }
 
@@ -33,6 +33,10 @@ a {
 }
 
 /*--  -------------------index start----------------------------------------- --*/
+.main-index {
+    background-color: #fffdce;
+}
+
 .index {
     display: block;
     border: 1px solid transparent;
@@ -112,9 +116,9 @@ a {
     width: 35px;
     height: 20px;
     border-top: transparent;
-    border-left: 3px solid #c2c2c2;
+    border-left: 3px solid #c18f4b;
     border-bottom: transparent;
-    border-right: 3px solid #c2c2c2;
+    border-right: 3px solid #c18f4b;
 }
 
 .hex__block_blue {
@@ -141,45 +145,45 @@ a {
 @keyframes bl {
     0% {
         border-top: transparent;
-        border-left: 3px solid #c2c2c2;
+        border-left: 3px solid #c18f4b;
         border-bottom: transparent;
-        border-right: 3px solid #c2c2c2;
+        border-right: 3px solid #c18f4b;
     }
     50% {
         border-top: transparent;
-        border-left: 3px solid #0bbece;
+        border-left: 3px solid #03cac7;
         border-bottom: transparent;
-        border-right: 3px solid #0bbece;
+        border-right: 3px solid #03cac7;
     }
 }
 
 @keyframes gr {
     0% {
         border-top: transparent;
-        border-left: 3px solid #c2c2c2;
+        border-left: 3px solid #c18f4b;
         border-bottom: transparent;
-        border-right: 3px solid #c2c2c2;
+        border-right: 3px solid #c18f4b;
     }
     50% {
         border-top: transparent;
-        border-left: 3px solid #47c835;
+        border-left: 3px solid #047c25;
         border-bottom: transparent;
-        border-right: 3px solid #47c835;
+        border-right: 3px solid #047c25;
     }
 }
 
 @keyframes ye {
     0% {
         border-top: transparent;
-        border-left: 3px solid #c2c2c2;
+        border-left: 3px solid #c18f4b;
         border-bottom: transparent;
-        border-right: 3px solid #c2c2c2;
+        border-right: 3px solid #c18f4b;
     }
     50% {
         border-top: transparent;
-        border-left: 3px solid #cc8921;
+        border-left: 3px solid #ffc62a;
         border-bottom: transparent;
-        border-right: 3px solid #cc8921;
+        border-right: 3px solid #ffc62a;
     }
 }
 
@@ -209,7 +213,7 @@ a {
     font-size: 20px;
     line-height: 20px;
     font-weight: 600;
-    color: #000000;
+    color: #784e14;
     margin: 42% 50%;
 }
 
@@ -220,7 +224,7 @@ a {
     text-transform: uppercase;
     margin-top: 37px;
     font-weight: 600;
-    color: #c2c2c2;
+    color: #784e14;
 }
 
 .dot {
