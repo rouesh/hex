@@ -14,7 +14,7 @@ body {
     color: #000000;
     max-width: 400px;
     max-height: 650px;
-    border: 3px solid #000000;
+    border: 3px solid #3b3b3b;
     margin: 0 auto;
 }
 
@@ -97,8 +97,6 @@ a {
 .comb__row_6-column {
     flex: 0 0 50%;
 }
-
-
 
 .comb__hexa {
     height: 36px;
@@ -258,61 +256,173 @@ a {
 
 /*--  -------------------index end------------------------------------------- --*/
 /*--  -------------------header start---------------------------------------- --*/
-.header__row {
+.header__title {
+    max-width: 144px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin: 20px auto;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+ .slick-track {
     display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 100%;
+ }
+
+/*--  -------------------s1 start--------------------- --*/
+.s1__body {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
+}
+.s1__row {
+    flex: 0 1 100%;
+    margin-top: 15px;
+}
+.s1__title {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #000000;
 }
 
-.header__bracket {
-  flex: 0 0 20%;
+.map {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.bracket {
-    border: 1px solid red;
-    height: 100%;
+.map__column_center {
 }
 
-.bracket_left {
-    justify-self: end;
+.map__img {
+    width: 100%;
+    height: auto;
 }
 
-.bracket__hex {
-    /* position: absolute;
-    top: 0%;
-    right: 0%; */
+.map__buildind {
+    display: flex;
+    flex-direction: column;
 }
 
-.hex__block_bracket {
-    width: 14px;
-    height: 8px;
-    border-top: transparent;
-    border-left: 3px solid #000000;
-    border-bottom: transparent;
-    border-right: 3px solid #000000;
+.map__building-icon {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #c2c2c2;
+    border-radius: 10%;
+    margin-bottom: 10px;
 }
 
-.header__title {
-    flex: 0 0 auto;
+.map__building-icon:last-child {
+    margin-bottom: 0px;
+}
+
+.nav {
+    display: flex;
+    margin: 30px auto;
+}
+
+.nav__left {
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 20px solid #c2c2c2;
+}
+
+.nav__left:hover {
+    border-right: 20px solid #515151;
 }
 
 
 
+.nav__start {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #000000;
+    padding: 0px 20px;
+}
 
-/* .bracket::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #green;
-    margin: 0 0 0 -10px;
-} */
-/*--  -------------------burger start--------------------- --*/
-/*--  -------------------burger end--------------------- --*/
+.nav__right {
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid #c2c2c2;
+}
+
+.nav__right:hover {
+    border-left: 20px solid #515151;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__icon {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #c2c2c2;
+    border-radius: 10%;
+    margin-right: 10px;
+    background-image: url(../img/n1-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 0.3s;
+}
+
+.menu__icon_1:hover {
+    background-image: url(../img/n1-3.jpg);
+}
+
+.menu__icon_2 {
+    background-image: url(../img/n2-2.jpg);
+}
+.menu__icon_2:hover {
+    background-image: url(../img/n2-3.jpg);
+}
+
+.menu__icon_3 {
+    background-image: url(../img/n3-2.jpg);
+}
+
+.menu__icon_3:hover {
+    background-image: url(../img/n3-3.jpg);
+}
+
+.menu__icon_4 {
+    background-image: url(../img/n4-2.jpg);
+}
+
+.menu__icon_4:hover {
+    background-image: url(../img/n4-3.jpg);
+}
+
+.menu__icon:last-child {
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+.menu__icon:hover {
+
+}
+/*--  -------------------s1 end--------------------- --*/
 
 /*--  -------------------header end--------------------- --*/
 /*--  -------------------main start--------------------- --*/
